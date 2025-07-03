@@ -1,69 +1,73 @@
 
-# 🏋️‍♂️ Sistema de Gerenciamento de Alunos - Academia
+# 🧠 Aprendizado de Programação Orientada a Objetos (POO) em Python
 
-Este projeto é uma aplicação em Python para gerenciar alunos de uma academia. O sistema permite controlar informações de alunos, pagamentos e gerar relatórios simples via terminal.
-
----
-
-## 📋 Funcionalidades
-
-- Cadastro e listagem de alunos
-- Registro de pagamentos
-- Identificação de inadimplentes
-- Geração de relatórios `.txt`
-- Interface em terminal
+Este repositório reúne meus exercícios, anotações e projetos práticos enquanto estudo **Programação Orientada a Objetos (POO)** com foco na linguagem **Python**.  
+A proposta é consolidar os conceitos fundamentais, aplicar na prática e construir uma base sólida para projetos futuros.
 
 ---
 
-## ▶️ Como Executar
+## 🚀 Objetivos
 
-1. Certifique-se de ter o **Python 3** instalado.
-2. Baixe ou clone este repositório.
-3. Abra o terminal na pasta do projeto.
-4. Execute o sistema com o comando abaixo:
+- Entender os principais pilares da POO: encapsulamento, herança, polimorfismo e abstração.
+- Praticar a criação e manipulação de classes e objetos.
+- Aprender boas práticas e estruturas comuns da programação orientada a objetos.
+- Criar exemplos práticos que demonstrem o uso dos conceitos estudados.
 
+---
+
+## 📁 Estrutura do Repositório
+
+```
+Aprendizado_POO/
+├── 01_classes_objetos/
+│   └── exemplos e exercícios sobre classes e objetos
+├── 02_metodos_atributos/
+│   └── uso de métodos e atributos em classes
+├── 03_encapsulamento/
+├── 04_heranca/
+├── 05_polimorfismo/
+├── 06_abstracao/
+└── README.md
+```
+
+> A estrutura pode mudar conforme o avanço dos estudos. Cada pasta contém exemplos com comentários e explicações.
+
+---
+
+## 🧩 Tópicos Estudados
+
+- ✅ Classes e Objetos  
+- ✅ Construtores e métodos  
+- ✅ Atributos de instância e classe  
+- ✅ Encapsulamento  
+- ✅ Herança  
+- ✅ Polimorfismo  
+- ✅ Abstração  
+- ⏳ Exercícios e mini-projetos aplicados
+
+---
+
+## ⚙️ Requisitos
+
+- Python 3.10+  
+- Editor recomendado: VS Code, PyCharm ou qualquer editor Python de sua preferência
+
+Para executar os exemplos:
 ```bash
-python código_principal_1.py
+python nome_do_arquivo.py
 ```
 
 ---
 
-## 🧠 Diagrama Simples de Funcionamento
+## 👨‍💻 Autor
 
-```text
-[Usuário no Terminal]
-        │
-        ▼
-[interface.py] → Menu com opções
-        │
-        ├──▶ [aluno.py] - Cadastra/lista alunos
-        │
-        ├──▶ [pagamento.py] - Marca pagamento
-        │
-        ├──▶ [pagamento_pendente.py] - Lista inadimplentes
-        │
-        └──▶ [gerar_arquivo.py] - Gera relatórios .txt
-```
+Pedro Duarte  
+[LinkedIn](https://www.linkedin.com/in/pedroduarte-dev)  
+[GitHub](https://github.com/Pedrao01)
 
 ---
 
-## 📁 Estrutura dos Arquivos
+## 📌 Observações
 
-- `aluno.py` – Classe `Aluno` com dados e métodos de manipulação
-- `pagamento.py` – Funções de controle de pagamento
-- `pagamento_pendente.py` – Relatório de alunos com mensalidade atrasada
-- `gerar_arquivo.py` – Geração de arquivos `.txt` com dados dos alunos
-- `interface.py` – Interface com menus e interações
-- `código_principal_1.py` – Script que integra tudo e inicia o sistema
-
----
-
-## 📜 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-## 🙋‍♂️ Autor
-
-Pedro Duarte – [@Pedrao01](https://github.com/Pedrao01)
+Este repositório está em constante atualização conforme avanço nos estudos.  
+Sinta-se à vontade para clonar, estudar ou sugerir melhorias!
