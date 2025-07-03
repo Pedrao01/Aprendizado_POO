@@ -1,7 +1,7 @@
 class Rectangle:
     def __init__(self, width, height):
-        self.__width =  width
-        self.__height = height
+        self.width =  width
+        self.height = height
 
     @property
     def width(self):
@@ -32,7 +32,7 @@ class Rectangle:
         return 2 * (self.__width + self.__height)
 
 
-r = Rectangle(10, 5)
+r = Rectangle(10,5)
 print(r.area())
 print(r.perimeter())
 r.width = -3
