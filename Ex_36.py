@@ -7,7 +7,8 @@ class DatabaseConnection:
         return cls._instance
 
     def __init__(self):
-        self.status = 'desconnected'
+        if not hasattr(self, 'status'):
+            self.status = 'Desconnected'
 
     def connect(self):
         if self.status == 'desconnected':
