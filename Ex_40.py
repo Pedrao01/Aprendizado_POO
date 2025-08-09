@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 
 class CompressionStrategy(ABC):
+    @abstractmethod
     def compress(self, file_name):
         pass
 
